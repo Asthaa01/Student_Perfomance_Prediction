@@ -28,9 +28,9 @@ This project predicts student final exam scores based on study habits and lifest
 📈 Model Performance
 (Add your actual values here after running model_training.py)
 
-- MAE: ___
-- RMSE: ___
-- R² Score: ___
+- MAE: 3.9158947167187086
+- RMSE: 4.865136938009764
+- R² Score: 0.8701495139367478
 
 ---
 
@@ -54,6 +54,13 @@ python model_training.py
 
 4. Run prediction system:
 python prediction_system.py
+
+ * Key Insights
+>Study hours positively affect exam scores.
+>Attendance has a strong impact on performance.
+>Previous exam scores are the strongest predictor.
+>High social media usage tends to reduce scores.
+>Random Forest achieved high prediction accuracy.
 
 🎯 Outcome
 The system predicts student exam performance based on input values.
